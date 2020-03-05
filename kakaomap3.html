@@ -42,7 +42,7 @@ if (true === true && false === false && document.referrer.split('?')[0] === "htt
 	<a href="#info">메뉴 바로가기</a>
 </div>
 
-<!-- <div class="IE6MIN"><div id="header" class="Header" role="banner">
+<div class="IE6MIN"><div id="header" class="Header" role="banner">
         <h1 class="Title">
             <a id="local" class="local" href="?nil_profile=title&amp;nil_src=local">kakaomap</a>
         </h1>
@@ -77,7 +77,7 @@ if (true === true && false === false && document.referrer.split('?')[0] === "htt
     </h2>
         <div class="dimmed_snb">
             <div class="snb_map" role="navigation">
-                <h2 class="img_snb tit_snb">kakaomap <span class="screen_out">더보기 메뉴</span></h2>
+                <!-- <h2 class="img_snb tit_snb">kakaomap <span class="screen_out">더보기 메뉴</span></h2>
                 <a data-log="notice" href="http://kakaomap.tistory.com" target="_blank" class="link_snb link_notice"><span class="img_snb"></span>공지사항</a>
                 <a data-log="event" href="http://kakaomap.tistory.com/category/알립니다/이벤트" target="_blank" class="link_snb link_event"><span class="img_snb"></span>이벤트</a>
 
@@ -89,9 +89,9 @@ if (true === true && false === false && document.referrer.split('?')[0] === "htt
                         <li id="placeMigrationMenu" class="HIDDEN" >
                             <a href="/p/place/migration" target="_blank" class="link_getplace">카카오플레이스 데이터 가져오기</a>
                         </li>
-                    </ul>
+                    </ul> -->
                 </div>
-                <ul class="list_service" id="mapMenus">
+                <!-- <ul class="list_service" id="mapMenus">
                     <li><a class="xc item_service" href="#none" data-channel="SIDEBAR_NEWPLACE">신규장소 등록</a></li>
                     <li><a class="xb" href="#none" data-channel="SIDEBAR_MODIFYMAP">지도정보 수정</a></li>
                     <li><a data-log="cs" href="https://cs.kakao.com/helps?locale=ko&service=101" target="_blank">고객센터</a></li>
@@ -106,54 +106,16 @@ if (true === true && false === false && document.referrer.split('?')[0] === "htt
                             <li><a class="xd" data-log="setting|unregister" href="#none" target="_blank">서비스 탈퇴</a></li>
                         </ul>
                     </li>
-                </ul>
+                </ul> -->
                 <ul class="list_info">
                     <li><a data-log="openapi" href="http://apis.map.daum.net" target="_blank">지도 오픈 API</a></li>
-                    <li><a data-log="searchregister" href="https://register.search.daum.net/index.daum" target="_blank">지도 검색등록</a></li>
-                    <li><a data-log="localbiz" href="http://local.biz.daum.net/rainbow_core/ols/index.local" target="_blank">광고신청</a></li>
+                    <!-- <li><a data-log="searchregister" href="https://register.search.daum.net/index.daum" target="_blank">지도 검색등록</a></li>
+                    <li><a data-log="localbiz" href="http://local.biz.daum.net/rainbow_core/ols/index.local" target="_blank">광고신청</a></li> -->
                 </ul>
-                <button type="button" class="img_snb btn_close">더보기 메뉴 닫기</button>
-            </div>
-        </div> -->
-
-<!-- 즐찾, 리뷰 다른사람 페이지 (좌측을 덮어버리는 ui라 #info.body에 넣을 수 없어 빼놓음)-->
-<div id="info.other" class="FavoriteOther HIDDEN">
-    <div data-id="header" class="header"></div>
-    <!-- 2018-09-04 높이값 조절 -->
-    <div data-id="body" class="body">
-        <div id="other.favorite" class="favorite_result">
-            <h3 class="screen_out">즐겨찾기</h3>
-
-            <!-- 상단에 FavoriteDetailSummary가 오는 상세 빈페이지에는 FavoriteEmptyDetail 부여 -->
-            <div data-id="listNone" class="FavoriteEmptyPage HIDDEN">
-                <p class="desc_empty">공개된 폴더가 없습니다.</p>
-            </div>
-
-
-
-            <ul data-id="list" class="list_body"></ul>
-        </div>
-        <div id="other.review" class="favorite_evaluation HIDDEN">
-            <h3 class="screen_out">평가</h3>
-            <div>
-                <div data-id="reviewEmptyPage" class="FavoriteEmptyPage HIDDEN">
-                    <p class="desc_empty">작성한 평가가 없습니다.</p>
-                </div>
-            </div>
-            <ul data-id="reviewList" class="list_body"></ul>
-            <div id="other.review.page" class="pages HIDDEN">
-                <div class="pageWrap">
-                    <button type="button" id="other.review.page.prev" class="prev disabled">이전</button>
-                    <a id="other.review.page.no1" class="ACTIVE" href="#">1</a>
-                    <a id="other.review.page.no2" class="INACTIVE" href="#">2</a>
-                    <a id="other.review.page.no3" class="INACTIVE" href="#">3</a>
-                    <a id="other.review.page.no4" class="INACTIVE" href="#">4</a>
-                    <a id="other.review.page.no5" class="INACTIVE" href="#">5</a>
-                    <button type="button" id="other.review.page.next" class="next">다음</button>
-                </div>
+                <!-- <button type="button" class="img_snb btn_close">더보기 메뉴 닫기</button> -->
             </div>
         </div>
-    </div>
+
     <div data-id="toolbar" class="FavoriteFunctionToolBar HIDDEN">
         <button type="button" data-id="share" class="btn_share"><span class="ico_function ico_share"></span>공유하기</button>
         <button type="button" data-id="info" class="btn_info">폴더 정보</button>
@@ -172,7 +134,7 @@ if (true === true && false === false && document.referrer.split('?')[0] === "htt
     <div id="info.header" class="header">
         <div id="info.header.main" class="main">
             <div role="navigation">
-                <h2 class="screen_out">검색 메뉴</h2>
+                <!-- <h2 class="screen_out">검색 메뉴</h2>
                 <ul class="menu">
                     <li id="search.tab1" class="keyword keyword-ACTIVE">
                         <a href="#" class="mainmenutab" title="검색">검색</a>
@@ -189,7 +151,7 @@ if (true === true && false === false && document.referrer.split('?')[0] === "htt
                     <li id="search.tab5" class="favorite favorite-INACTIVE">
                         <a href="#" class="mainmenutab" title="즐겨찾기">MY</a>
                     </li>
-                </ul>
+                </ul> -->
             </div>
         </div>
     </div>
@@ -201,30 +163,30 @@ if (true === true && false === false && document.referrer.split('?')[0] === "htt
             <div class="reportError">
                 <h3 class="screen_out">현재위치</h3>
                 <span id="info.location.approxAddr" class="approxAddr">&nbsp;</span>
-                <div id="info.location.weather" class="infoAir HIDDEN">
+                <!-- <div id="info.location.weather" class="infoAir HIDDEN">
                     <strong class="screen_out">날씨정보</strong>
                     <span class="txt_air"></span>
                     <span class="temper"></span>
                     <span class="txt_change"></span>
                     <span class="txt_bar"></span>
                     <span class="txt_dust">미세먼지<span class="txt_state"></span></span>
-                </div>
-                <a id="info.location.reportError" href="iptargeting/form" class="reportbug">오류신고</a>
+                </div> -->
+                <!-- <a id="info.location.reportError" href="iptargeting/form" class="reportbug">오류신고</a> -->
             </div>
         </div>
-        <div id="info.main.famous" class="famous"></div>
+        <!-- <div id="info.main.famous" class="famous"></div>
         <div id="info.main.around" class="infoAround">
             <h3 class="tit_around">주변 탐색</h3>
             <ul class="list_around"></ul>
-        </div>
+        </div> -->
         <div id="info.main.favorite" class="regfav"></div>
         <div id="info.main.newplace" class="newplace">
-            <div class="newPlace">
+            <!-- <div class="newPlace">
                 <h6 class="tit_newplace">새로운 장소</h6>
                 <p class="desc_newplace">새로운 수정된 장소를 알고 계세요?<br>장소 제보는 지도 품질 향상에 큰 도움이 됩니다.</p>
                 <a href="#none" class="xc link_newplace link_suggest" data-pos="left" data-channel="SEARCH_MIDDLE_NEWPLACE">신규 장소 등록</a>
                 <a href="#none" class="xb link_newplace link_modify" data-pos="left" data-channel="SEARCH_MIDDLE_MODIFYMAP">지도 정보 수정</a>
-            </div>
+            </div> -->
         </div>
     </div>
 
@@ -277,6 +239,7 @@ if (true === true && false === false && document.referrer.split('?')[0] === "htt
             <p><a href="#" class="link_search" id="info.searchHeader.spellcheck.candidate">'<span id="info.searchHeader.spellcheck.text"></span>'(으)로 재검색 <span class="ico_arr"></span></a></p>
         </div>
     </div>
+
     <div id="info.noPlace" class="noPlace HIDDEN">
         <div class="inner_noPlace">
             <h3 class="noKeyword">
@@ -295,13 +258,7 @@ if (true === true && false === false && document.referrer.split('?')[0] === "htt
             <h3 class="noKeyword">검색 결과가 없어요.</h3>
         </div>
     </div>
-
-
-
         <div id="info.search" class="keywordSearch HIDDEN">
-
-
-
                 <div id="info.search.theme" class="section themeSearch HIDDEN">
             <div class="sectiontitle">
                 <h5 class="themetit">테마</h5>
@@ -322,7 +279,7 @@ if (true === true && false === false && document.referrer.split('?')[0] === "htt
             </div>
             <ul id="info.search.buses.list"></ul>
             <a id="info.search.buses.more" class="more" href="#">버스 더보기</a>
-                    </div>
+        </div>
 
         <div id="info.search.busstops" class="section busstops">
             <div class="sectiontitle sectionBus">
@@ -400,14 +357,14 @@ if (true === true && false === false && document.referrer.split('?')[0] === "htt
     </div>
 
     <div id="info.noThemePlace" class="noThemePlace HIDDEN">
-        <p id="info.noThemePlace.category" class="reviewcategories HIDDEN">
+        <!-- <p id="info.noThemePlace.category" class="reviewcategories HIDDEN">
         <a id="info.noThemePlace.category.n1" href="#">전체</a>
         <a id="info.noThemePlace.category.n2" href="#">음식</a>
         <a id="info.noThemePlace.category.n3" href="#">여행</a>
         <a id="info.noThemePlace.category.n4" href="#">기타</a>
         </p>
         <p class="l1"><strong>'주변 <span id="info.noThemePlace.title"></span>'</strong>에 대한 검색 결과가 없습니다.</p>
-        <p class="l2">지도를 축소하여 다시 테마 지도를 이용해 주세요.</p>
+        <p class="l2">지도를 축소하여 다시 테마 지도를 이용해 주세요.</p> -->
     </div>
 
 
